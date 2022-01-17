@@ -1,0 +1,98 @@
+:root {
+  --primary-color: #f76514;
+  --dark-primary-color: #ff600a;
+  --light-color: rgb(240, 240, 240);
+  --light-color-shade: #f8f8f8;
+  --dark-color: black;
+}
+
+.bg-light {
+  background-color: var(--light-color) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.card {
+  border-radius: 8px;
+  border: 0;
+}
+
+.form-control {
+  height: 58px;
+  font-size: 14px;
+  color: rgb(7, 7, 7);
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  border-image: initial;
+  padding: 0px 22px;
+  background: rgb(255, 255, 255);
+}
+
+.form-control:active,
+.form-control:focus {
+  color: rgb(7, 7, 7);
+  box-shadow: none !important;
+  outline: none;
+  border-color: var(--primary-color);
+  background: rgb(255, 255, 255);
+}
+
+.btn,
+button {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+.btn-primary:hover {
+  color: rgb(255, 255, 255);
+  background-color: var(--dark-primary-color);
+  border-color: var(--dark-primary-color);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.form-label {
+  font-weight: 500;
+  color: rgb(160, 160, 160);
+  margin-bottom: 0.5rem;
+  font-size: 0.9em;
+}
+
+::placeholder {
+  color: rgb(160, 160, 160) !important;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-group-item {
+  border: unset;
+  border-bottom: 1px solid var(--light-color);
+}
+
+.list-group-item-action:hover {
+  background-color: unset;
+}
