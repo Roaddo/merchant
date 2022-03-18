@@ -4,7 +4,7 @@ const ListItem = ({ Type, Date, Destination, Status }) => {
   return (
     <Link
       to="/dashboard"
-      className="list-group-item list-group-item-action px-0"
+      className="list-group-item list-group-item-action px-2"
       aria-current="true"
     >
       <div className="d-flex w-100 justify-content-between align-items-center">
