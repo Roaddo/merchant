@@ -11,7 +11,7 @@ const ListItem = ({ Type, Date, Destination, Status }) => {
         <h6 className="mb-1 text-truncate w-75 fw-bold">{Destination}</h6>
         <span className="badge rounded-pill bg-primary">{Status}</span>
       </div>
-      <p className="mb-1 text-muted">
+      <p className="mb-1 text-light">
         <small>{Date}</small>
       </p>
       <small className="text-uppercase">{Type}</small>
